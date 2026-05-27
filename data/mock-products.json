@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "mock-1",
+    "title": "Nord 北歐風audio 1",
+    "description": "適合北歐風偏好，主打CP值與日常使用。",
+    "tags": [
+      "audio",
+      "CP值",
+      "比較",
+      "替代"
+    ],
+    "category": "audio",
+    "price": 27,
+    "image": "https://picsum.photos/seed/v2a-1/600/400",
+    "styleKeywords": [
+      "北歐風",
+      "工業風"
+    ],
+    "comparisonKeywords": [
+      "CP值",
+      "輕量"
+    ],
+    "substituteFor": [
+      "AirPods",
+      "Herman Miller"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-1"
+  },
+  {
+    "id": "mock-2",
+    "title": "Aero 工業風home 2",
+    "description": "適合工業風偏好，主打耐用與日常使用。",
+    "tags": [
+      "home",
+      "耐用",
+      "比較",
+      "替代"
+    ],
+    "category": "home",
+    "price": 35,
+    "image": "https://picsum.photos/seed/v2a-2/600/400",
+    "styleKeywords": [
+      "工業風",
+      "極簡"
+    ],
+    "comparisonKeywords": [
+      "耐用",
+      "通勤"
+    ],
+    "substituteFor": [
+      "SK-II",
+      "Le Labo"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-2"
+  },
+  {
+    "id": "mock-3",
+    "title": "Pulse 極簡fashion 3",
+    "description": "適合極簡偏好，主打輕量與日常使用。",
+    "tags": [
+      "fashion",
+      "輕量",
+      "比較",
+      "替代"
+    ],
+    "category": "fashion",
+    "price": 42,
+    "image": "https://picsum.photos/seed/v2a-3/600/400",
+    "styleKeywords": [
+      "極簡",
+      "賽博龐克"
+    ],
+    "comparisonKeywords": [
+      "輕量",
+      "質感"
+    ],
+    "substituteFor": [
+      "Herman Miller",
+      "Sony"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-3"
+  },
+  {
+    "id": "mock-4",
+    "title": "Mira 賽博龐克travel 4",
+    "description": "適合賽博龐克偏好，主打通勤與日常使用。",
+    "tags": [
+      "travel",
+      "通勤",
+      "比較",
+      "替代"
+    ],
+    "category": "travel",
+    "price": 49,
+    "image": "https://picsum.photos/seed/v2a-4/600/400",
+    "styleKeywords": [
+      "賽博龐克",
+      "宅宅感"
+    ],
+    "comparisonKeywords": [
+      "通勤",
+      "平替"
+    ],
+    "substituteFor": [
+      "Le Labo",
+      "Dyson"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-4"
+  },
+  {
+    "id": "mock-5",
+    "title": "Zen 宅宅感gaming 5",
+    "description": "適合宅宅感偏好，主打質感與日常使用。",
+    "tags": [
+      "gaming",
+      "質感",
+      "比較",
+      "替代"
+    ],
+    "category": "gaming",
+    "price": 57,
+    "image": "https://picsum.photos/seed/v2a-5/600/400",
+    "styleKeywords": [
+      "宅宅感",
+      "韓系"
+    ],
+    "comparisonKeywords": [
+      "質感",
+      "CP值"
+    ],
+    "substituteFor": [
+      "Sony",
+      "AirPods"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-5"
+  },
+  {
+    "id": "mock-6",
+    "title": "Vertex 韓系fragrance 6",
+    "description": "適合韓系偏好，主打平替與日常使用。",
+    "tags": [
+      "fragrance",
+      "平替",
+      "比較",
+      "替代"
+    ],
+    "category": "fragrance",
+    "price": 64,
+    "image": "https://picsum.photos/seed/v2a-6/600/400",
+    "styleKeywords": [
+      "韓系",
+      "北歐風"
+    ],
+    "comparisonKeywords": [
+      "平替",
+      "耐用"
+    ],
+    "substituteFor": [
+      "Dyson",
+      "SK-II"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-6"
+  },
+  {
+    "id": "mock-7",
+    "title": "Echo 北歐風skincare 7",
+    "description": "適合北歐風偏好，主打CP值與日常使用。",
+    "tags": [
+      "skincare",
+      "CP值",
+      "比較",
+      "替代"
+    ],
+    "category": "skincare",
+    "price": 71,
+    "image": "https://picsum.photos/seed/v2a-7/600/400",
+    "styleKeywords": [
+      "北歐風",
+      "工業風"
+    ],
+    "comparisonKeywords": [
+      "CP值",
+      "輕量"
+    ],
+    "substituteFor": [
+      "AirPods",
+      "Herman Miller"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-7"
+  },
+  {
+    "id": "mock-8",
+    "title": "Bloom 工業風furniture 8",
+    "description": "適合工業風偏好，主打耐用與日常使用。",
+    "tags": [
+      "furniture",
+      "耐用",
+      "比較",
+      "替代"
+    ],
+    "category": "furniture",
+    "price": 78,
+    "image": "https://picsum.photos/seed/v2a-8/600/400",
+    "styleKeywords": [
+      "工業風",
+      "極簡"
+    ],
+    "comparisonKeywords": [
+      "耐用",
+      "通勤"
+    ],
+    "substituteFor": [
+      "SK-II",
+      "Le Labo"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-8"
+  },
+  {
+    "id": "mock-9",
+    "title": "Craft 極簡accessories 9",
+    "description": "適合極簡偏好，主打輕量與日常使用。",
+    "tags": [
+      "accessories",
+      "輕量",
+      "比較",
+      "替代"
+    ],
+    "category": "accessories",
+    "price": 86,
+    "image": "https://picsum.photos/seed/v2a-9/600/400",
+    "styleKeywords": [
+      "極簡",
+      "賽博龐克"
+    ],
+    "comparisonKeywords": [
+      "輕量",
+      "質感"
+    ],
+    "substituteFor": [
+      "Herman Miller",
+      "Sony"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-9"
+  },
+  {
+    "id": "mock-10",
+    "title": "Lumi 賽博龐克beauty 10",
+    "description": "適合賽博龐克偏好，主打通勤與日常使用。",
+    "tags": [
+      "beauty",
+      "通勤",
+      "比較",
+      "替代"
+    ],
+    "category": "beauty",
+    "price": 93,
+    "image": "https://picsum.photos/seed/v2a-10/600/400",
+    "styleKeywords": [
+      "賽博龐克",
+      "宅宅感"
+    ],
+    "comparisonKeywords": [
+      "通勤",
+      "平替"
+    ],
+    "substituteFor": [
+      "Le Labo",
+      "Dyson"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-10"
+  },
+  {
+    "id": "mock-11",
+    "title": "Nord 宅宅感audio 11",
+    "description": "適合宅宅感偏好，主打質感與日常使用。",
+    "tags": [
+      "audio",
+      "質感",
+      "比較",
+      "替代"
+    ],
+    "category": "audio",
+    "price": 100,
+    "image": "https://picsum.photos/seed/v2a-11/600/400",
+    "styleKeywords": [
+      "宅宅感",
+      "韓系"
+    ],
+    "comparisonKeywords": [
+      "質感",
+      "CP值"
+    ],
+    "substituteFor": [
+      "Sony",
+      "AirPods"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-11"
+  },
+  {
+    "id": "mock-12",
+    "title": "Aero 韓系home 12",
+    "description": "適合韓系偏好，主打平替與日常使用。",
+    "tags": [
+      "home",
+      "平替",
+      "比較",
+      "替代"
+    ],
+    "category": "home",
+    "price": 108,
+    "image": "https://picsum.photos/seed/v2a-12/600/400",
+    "styleKeywords": [
+      "韓系",
+      "北歐風"
+    ],
+    "comparisonKeywords": [
+      "平替",
+      "耐用"
+    ],
+    "substituteFor": [
+      "Dyson",
+      "SK-II"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-12"
+  },
+  {
+    "id": "mock-13",
+    "title": "Pulse 北歐風fashion 13",
+    "description": "適合北歐風偏好，主打CP值與日常使用。",
+    "tags": [
+      "fashion",
+      "CP值",
+      "比較",
+      "替代"
+    ],
+    "category": "fashion",
+    "price": 115,
+    "image": "https://picsum.photos/seed/v2a-13/600/400",
+    "styleKeywords": [
+      "北歐風",
+      "工業風"
+    ],
+    "comparisonKeywords": [
+      "CP值",
+      "輕量"
+    ],
+    "substituteFor": [
+      "AirPods",
+      "Herman Miller"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-13"
+  },
+  {
+    "id": "mock-14",
+    "title": "Mira 工業風travel 14",
+    "description": "適合工業風偏好，主打耐用與日常使用。",
+    "tags": [
+      "travel",
+      "耐用",
+      "比較",
+      "替代"
+    ],
+    "category": "travel",
+    "price": 122,
+    "image": "https://picsum.photos/seed/v2a-14/600/400",
+    "styleKeywords": [
+      "工業風",
+      "極簡"
+    ],
+    "comparisonKeywords": [
+      "耐用",
+      "通勤"
+    ],
+    "substituteFor": [
+      "SK-II",
+      "Le Labo"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-14"
+  },
+  {
+    "id": "mock-15",
+    "title": "Zen 極簡gaming 15",
+    "description": "適合極簡偏好，主打輕量與日常使用。",
+    "tags": [
+      "gaming",
+      "輕量",
+      "比較",
+      "替代"
+    ],
+    "category": "gaming",
+    "price": 130,
+    "image": "https://picsum.photos/seed/v2a-15/600/400",
+    "styleKeywords": [
+      "極簡",
+      "賽博龐克"
+    ],
+    "comparisonKeywords": [
+      "輕量",
+      "質感"
+    ],
+    "substituteFor": [
+      "Herman Miller",
+      "Sony"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-15"
+  },
+  {
+    "id": "mock-16",
+    "title": "Vertex 賽博龐克fragrance 16",
+    "description": "適合賽博龐克偏好，主打通勤與日常使用。",
+    "tags": [
+      "fragrance",
+      "通勤",
+      "比較",
+      "替代"
+    ],
+    "category": "fragrance",
+    "price": 137,
+    "image": "https://picsum.photos/seed/v2a-16/600/400",
+    "styleKeywords": [
+      "賽博龐克",
+      "宅宅感"
+    ],
+    "comparisonKeywords": [
+      "通勤",
+      "平替"
+    ],
+    "substituteFor": [
+      "Le Labo",
+      "Dyson"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-16"
+  },
+  {
+    "id": "mock-17",
+    "title": "Echo 宅宅感skincare 17",
+    "description": "適合宅宅感偏好，主打質感與日常使用。",
+    "tags": [
+      "skincare",
+      "質感",
+      "比較",
+      "替代"
+    ],
+    "category": "skincare",
+    "price": 144,
+    "image": "https://picsum.photos/seed/v2a-17/600/400",
+    "styleKeywords": [
+      "宅宅感",
+      "韓系"
+    ],
+    "comparisonKeywords": [
+      "質感",
+      "CP值"
+    ],
+    "substituteFor": [
+      "Sony",
+      "AirPods"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-17"
+  },
+  {
+    "id": "mock-18",
+    "title": "Bloom 韓系furniture 18",
+    "description": "適合韓系偏好，主打平替與日常使用。",
+    "tags": [
+      "furniture",
+      "平替",
+      "比較",
+      "替代"
+    ],
+    "category": "furniture",
+    "price": 151,
+    "image": "https://picsum.photos/seed/v2a-18/600/400",
+    "styleKeywords": [
+      "韓系",
+      "北歐風"
+    ],
+    "comparisonKeywords": [
+      "平替",
+      "耐用"
+    ],
+    "substituteFor": [
+      "Dyson",
+      "SK-II"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-18"
+  },
+  {
+    "id": "mock-19",
+    "title": "Craft 北歐風accessories 19",
+    "description": "適合北歐風偏好，主打CP值與日常使用。",
+    "tags": [
+      "accessories",
+      "CP值",
+      "比較",
+      "替代"
+    ],
+    "category": "accessories",
+    "price": 159,
+    "image": "https://picsum.photos/seed/v2a-19/600/400",
+    "styleKeywords": [
+      "北歐風",
+      "工業風"
+    ],
+    "comparisonKeywords": [
+      "CP值",
+      "輕量"
+    ],
+    "substituteFor": [
+      "AirPods",
+      "Herman Miller"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-19"
+  },
+  {
+    "id": "mock-20",
+    "title": "Lumi 工業風beauty 20",
+    "description": "適合工業風偏好，主打耐用與日常使用。",
+    "tags": [
+      "beauty",
+      "耐用",
+      "比較",
+      "替代"
+    ],
+    "category": "beauty",
+    "price": 166,
+    "image": "https://picsum.photos/seed/v2a-20/600/400",
+    "styleKeywords": [
+      "工業風",
+      "極簡"
+    ],
+    "comparisonKeywords": [
+      "耐用",
+      "通勤"
+    ],
+    "substituteFor": [
+      "SK-II",
+      "Le Labo"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-20"
+  },
+  {
+    "id": "mock-21",
+    "title": "Nord 極簡audio 21",
+    "description": "適合極簡偏好，主打輕量與日常使用。",
+    "tags": [
+      "audio",
+      "輕量",
+      "比較",
+      "替代"
+    ],
+    "category": "audio",
+    "price": 173,
+    "image": "https://picsum.photos/seed/v2a-21/600/400",
+    "styleKeywords": [
+      "極簡",
+      "賽博龐克"
+    ],
+    "comparisonKeywords": [
+      "輕量",
+      "質感"
+    ],
+    "substituteFor": [
+      "Herman Miller",
+      "Sony"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-21"
+  },
+  {
+    "id": "mock-22",
+    "title": "Aero 賽博龐克home 22",
+    "description": "適合賽博龐克偏好，主打通勤與日常使用。",
+    "tags": [
+      "home",
+      "通勤",
+      "比較",
+      "替代"
+    ],
+    "category": "home",
+    "price": 181,
+    "image": "https://picsum.photos/seed/v2a-22/600/400",
+    "styleKeywords": [
+      "賽博龐克",
+      "宅宅感"
+    ],
+    "comparisonKeywords": [
+      "通勤",
+      "平替"
+    ],
+    "substituteFor": [
+      "Le Labo",
+      "Dyson"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-22"
+  },
+  {
+    "id": "mock-23",
+    "title": "Pulse 宅宅感fashion 23",
+    "description": "適合宅宅感偏好，主打質感與日常使用。",
+    "tags": [
+      "fashion",
+      "質感",
+      "比較",
+      "替代"
+    ],
+    "category": "fashion",
+    "price": 188,
+    "image": "https://picsum.photos/seed/v2a-23/600/400",
+    "styleKeywords": [
+      "宅宅感",
+      "韓系"
+    ],
+    "comparisonKeywords": [
+      "質感",
+      "CP值"
+    ],
+    "substituteFor": [
+      "Sony",
+      "AirPods"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-23"
+  },
+  {
+    "id": "mock-24",
+    "title": "Mira 韓系travel 24",
+    "description": "適合韓系偏好，主打平替與日常使用。",
+    "tags": [
+      "travel",
+      "平替",
+      "比較",
+      "替代"
+    ],
+    "category": "travel",
+    "price": 195,
+    "image": "https://picsum.photos/seed/v2a-24/600/400",
+    "styleKeywords": [
+      "韓系",
+      "北歐風"
+    ],
+    "comparisonKeywords": [
+      "平替",
+      "耐用"
+    ],
+    "substituteFor": [
+      "Dyson",
+      "SK-II"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-24"
+  },
+  {
+    "id": "mock-25",
+    "title": "Zen 北歐風gaming 25",
+    "description": "適合北歐風偏好，主打CP值與日常使用。",
+    "tags": [
+      "gaming",
+      "CP值",
+      "比較",
+      "替代"
+    ],
+    "category": "gaming",
+    "price": 203,
+    "image": "https://picsum.photos/seed/v2a-25/600/400",
+    "styleKeywords": [
+      "北歐風",
+      "工業風"
+    ],
+    "comparisonKeywords": [
+      "CP值",
+      "輕量"
+    ],
+    "substituteFor": [
+      "AirPods",
+      "Herman Miller"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-25"
+  },
+  {
+    "id": "mock-26",
+    "title": "Vertex 工業風fragrance 26",
+    "description": "適合工業風偏好，主打耐用與日常使用。",
+    "tags": [
+      "fragrance",
+      "耐用",
+      "比較",
+      "替代"
+    ],
+    "category": "fragrance",
+    "price": 210,
+    "image": "https://picsum.photos/seed/v2a-26/600/400",
+    "styleKeywords": [
+      "工業風",
+      "極簡"
+    ],
+    "comparisonKeywords": [
+      "耐用",
+      "通勤"
+    ],
+    "substituteFor": [
+      "SK-II",
+      "Le Labo"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-26"
+  },
+  {
+    "id": "mock-27",
+    "title": "Echo 極簡skincare 27",
+    "description": "適合極簡偏好，主打輕量與日常使用。",
+    "tags": [
+      "skincare",
+      "輕量",
+      "比較",
+      "替代"
+    ],
+    "category": "skincare",
+    "price": 217,
+    "image": "https://picsum.photos/seed/v2a-27/600/400",
+    "styleKeywords": [
+      "極簡",
+      "賽博龐克"
+    ],
+    "comparisonKeywords": [
+      "輕量",
+      "質感"
+    ],
+    "substituteFor": [
+      "Herman Miller",
+      "Sony"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-27"
+  },
+  {
+    "id": "mock-28",
+    "title": "Bloom 賽博龐克furniture 28",
+    "description": "適合賽博龐克偏好，主打通勤與日常使用。",
+    "tags": [
+      "furniture",
+      "通勤",
+      "比較",
+      "替代"
+    ],
+    "category": "furniture",
+    "price": 224,
+    "image": "https://picsum.photos/seed/v2a-28/600/400",
+    "styleKeywords": [
+      "賽博龐克",
+      "宅宅感"
+    ],
+    "comparisonKeywords": [
+      "通勤",
+      "平替"
+    ],
+    "substituteFor": [
+      "Le Labo",
+      "Dyson"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-28"
+  },
+  {
+    "id": "mock-29",
+    "title": "Craft 宅宅感accessories 29",
+    "description": "適合宅宅感偏好，主打質感與日常使用。",
+    "tags": [
+      "accessories",
+      "質感",
+      "比較",
+      "替代"
+    ],
+    "category": "accessories",
+    "price": 232,
+    "image": "https://picsum.photos/seed/v2a-29/600/400",
+    "styleKeywords": [
+      "宅宅感",
+      "韓系"
+    ],
+    "comparisonKeywords": [
+      "質感",
+      "CP值"
+    ],
+    "substituteFor": [
+      "Sony",
+      "AirPods"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-29"
+  },
+  {
+    "id": "mock-30",
+    "title": "Lumi 韓系beauty 30",
+    "description": "適合韓系偏好，主打平替與日常使用。",
+    "tags": [
+      "beauty",
+      "平替",
+      "比較",
+      "替代"
+    ],
+    "category": "beauty",
+    "price": 239,
+    "image": "https://picsum.photos/seed/v2a-30/600/400",
+    "styleKeywords": [
+      "韓系",
+      "北歐風"
+    ],
+    "comparisonKeywords": [
+      "平替",
+      "耐用"
+    ],
+    "substituteFor": [
+      "Dyson",
+      "SK-II"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-30"
+  },
+  {
+    "id": "mock-31",
+    "title": "Nord 北歐風audio 31",
+    "description": "適合北歐風偏好，主打CP值與日常使用。",
+    "tags": [
+      "audio",
+      "CP值",
+      "比較",
+      "替代"
+    ],
+    "category": "audio",
+    "price": 246,
+    "image": "https://picsum.photos/seed/v2a-31/600/400",
+    "styleKeywords": [
+      "北歐風",
+      "工業風"
+    ],
+    "comparisonKeywords": [
+      "CP值",
+      "輕量"
+    ],
+    "substituteFor": [
+      "AirPods",
+      "Herman Miller"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-31"
+  },
+  {
+    "id": "mock-32",
+    "title": "Aero 工業風home 32",
+    "description": "適合工業風偏好，主打耐用與日常使用。",
+    "tags": [
+      "home",
+      "耐用",
+      "比較",
+      "替代"
+    ],
+    "category": "home",
+    "price": 254,
+    "image": "https://picsum.photos/seed/v2a-32/600/400",
+    "styleKeywords": [
+      "工業風",
+      "極簡"
+    ],
+    "comparisonKeywords": [
+      "耐用",
+      "通勤"
+    ],
+    "substituteFor": [
+      "SK-II",
+      "Le Labo"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-32"
+  },
+  {
+    "id": "mock-33",
+    "title": "Pulse 極簡fashion 33",
+    "description": "適合極簡偏好，主打輕量與日常使用。",
+    "tags": [
+      "fashion",
+      "輕量",
+      "比較",
+      "替代"
+    ],
+    "category": "fashion",
+    "price": 261,
+    "image": "https://picsum.photos/seed/v2a-33/600/400",
+    "styleKeywords": [
+      "極簡",
+      "賽博龐克"
+    ],
+    "comparisonKeywords": [
+      "輕量",
+      "質感"
+    ],
+    "substituteFor": [
+      "Herman Miller",
+      "Sony"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-33"
+  },
+  {
+    "id": "mock-34",
+    "title": "Mira 賽博龐克travel 34",
+    "description": "適合賽博龐克偏好，主打通勤與日常使用。",
+    "tags": [
+      "travel",
+      "通勤",
+      "比較",
+      "替代"
+    ],
+    "category": "travel",
+    "price": 268,
+    "image": "https://picsum.photos/seed/v2a-34/600/400",
+    "styleKeywords": [
+      "賽博龐克",
+      "宅宅感"
+    ],
+    "comparisonKeywords": [
+      "通勤",
+      "平替"
+    ],
+    "substituteFor": [
+      "Le Labo",
+      "Dyson"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-34"
+  },
+  {
+    "id": "mock-35",
+    "title": "Zen 宅宅感gaming 35",
+    "description": "適合宅宅感偏好，主打質感與日常使用。",
+    "tags": [
+      "gaming",
+      "質感",
+      "比較",
+      "替代"
+    ],
+    "category": "gaming",
+    "price": 276,
+    "image": "https://picsum.photos/seed/v2a-35/600/400",
+    "styleKeywords": [
+      "宅宅感",
+      "韓系"
+    ],
+    "comparisonKeywords": [
+      "質感",
+      "CP值"
+    ],
+    "substituteFor": [
+      "Sony",
+      "AirPods"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-35"
+  },
+  {
+    "id": "mock-36",
+    "title": "Vertex 韓系fragrance 36",
+    "description": "適合韓系偏好，主打平替與日常使用。",
+    "tags": [
+      "fragrance",
+      "平替",
+      "比較",
+      "替代"
+    ],
+    "category": "fragrance",
+    "price": 283,
+    "image": "https://picsum.photos/seed/v2a-36/600/400",
+    "styleKeywords": [
+      "韓系",
+      "北歐風"
+    ],
+    "comparisonKeywords": [
+      "平替",
+      "耐用"
+    ],
+    "substituteFor": [
+      "Dyson",
+      "SK-II"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-36"
+  },
+  {
+    "id": "mock-37",
+    "title": "Echo 北歐風skincare 37",
+    "description": "適合北歐風偏好，主打CP值與日常使用。",
+    "tags": [
+      "skincare",
+      "CP值",
+      "比較",
+      "替代"
+    ],
+    "category": "skincare",
+    "price": 290,
+    "image": "https://picsum.photos/seed/v2a-37/600/400",
+    "styleKeywords": [
+      "北歐風",
+      "工業風"
+    ],
+    "comparisonKeywords": [
+      "CP值",
+      "輕量"
+    ],
+    "substituteFor": [
+      "AirPods",
+      "Herman Miller"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-37"
+  },
+  {
+    "id": "mock-38",
+    "title": "Bloom 工業風furniture 38",
+    "description": "適合工業風偏好，主打耐用與日常使用。",
+    "tags": [
+      "furniture",
+      "耐用",
+      "比較",
+      "替代"
+    ],
+    "category": "furniture",
+    "price": 297,
+    "image": "https://picsum.photos/seed/v2a-38/600/400",
+    "styleKeywords": [
+      "工業風",
+      "極簡"
+    ],
+    "comparisonKeywords": [
+      "耐用",
+      "通勤"
+    ],
+    "substituteFor": [
+      "SK-II",
+      "Le Labo"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-38"
+  },
+  {
+    "id": "mock-39",
+    "title": "Craft 極簡accessories 39",
+    "description": "適合極簡偏好，主打輕量與日常使用。",
+    "tags": [
+      "accessories",
+      "輕量",
+      "比較",
+      "替代"
+    ],
+    "category": "accessories",
+    "price": 305,
+    "image": "https://picsum.photos/seed/v2a-39/600/400",
+    "styleKeywords": [
+      "極簡",
+      "賽博龐克"
+    ],
+    "comparisonKeywords": [
+      "輕量",
+      "質感"
+    ],
+    "substituteFor": [
+      "Herman Miller",
+      "Sony"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-39"
+  },
+  {
+    "id": "mock-40",
+    "title": "Lumi 賽博龐克beauty 40",
+    "description": "適合賽博龐克偏好，主打通勤與日常使用。",
+    "tags": [
+      "beauty",
+      "通勤",
+      "比較",
+      "替代"
+    ],
+    "category": "beauty",
+    "price": 312,
+    "image": "https://picsum.photos/seed/v2a-40/600/400",
+    "styleKeywords": [
+      "賽博龐克",
+      "宅宅感"
+    ],
+    "comparisonKeywords": [
+      "通勤",
+      "平替"
+    ],
+    "substituteFor": [
+      "Le Labo",
+      "Dyson"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-40"
+  },
+  {
+    "id": "mock-41",
+    "title": "Nord 宅宅感audio 41",
+    "description": "適合宅宅感偏好，主打質感與日常使用。",
+    "tags": [
+      "audio",
+      "質感",
+      "比較",
+      "替代"
+    ],
+    "category": "audio",
+    "price": 319,
+    "image": "https://picsum.photos/seed/v2a-41/600/400",
+    "styleKeywords": [
+      "宅宅感",
+      "韓系"
+    ],
+    "comparisonKeywords": [
+      "質感",
+      "CP值"
+    ],
+    "substituteFor": [
+      "Sony",
+      "AirPods"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-41"
+  },
+  {
+    "id": "mock-42",
+    "title": "Aero 韓系home 42",
+    "description": "適合韓系偏好，主打平替與日常使用。",
+    "tags": [
+      "home",
+      "平替",
+      "比較",
+      "替代"
+    ],
+    "category": "home",
+    "price": 327,
+    "image": "https://picsum.photos/seed/v2a-42/600/400",
+    "styleKeywords": [
+      "韓系",
+      "北歐風"
+    ],
+    "comparisonKeywords": [
+      "平替",
+      "耐用"
+    ],
+    "substituteFor": [
+      "Dyson",
+      "SK-II"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-42"
+  },
+  {
+    "id": "mock-43",
+    "title": "Pulse 北歐風fashion 43",
+    "description": "適合北歐風偏好，主打CP值與日常使用。",
+    "tags": [
+      "fashion",
+      "CP值",
+      "比較",
+      "替代"
+    ],
+    "category": "fashion",
+    "price": 334,
+    "image": "https://picsum.photos/seed/v2a-43/600/400",
+    "styleKeywords": [
+      "北歐風",
+      "工業風"
+    ],
+    "comparisonKeywords": [
+      "CP值",
+      "輕量"
+    ],
+    "substituteFor": [
+      "AirPods",
+      "Herman Miller"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-43"
+  },
+  {
+    "id": "mock-44",
+    "title": "Mira 工業風travel 44",
+    "description": "適合工業風偏好，主打耐用與日常使用。",
+    "tags": [
+      "travel",
+      "耐用",
+      "比較",
+      "替代"
+    ],
+    "category": "travel",
+    "price": 341,
+    "image": "https://picsum.photos/seed/v2a-44/600/400",
+    "styleKeywords": [
+      "工業風",
+      "極簡"
+    ],
+    "comparisonKeywords": [
+      "耐用",
+      "通勤"
+    ],
+    "substituteFor": [
+      "SK-II",
+      "Le Labo"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-44"
+  },
+  {
+    "id": "mock-45",
+    "title": "Zen 極簡gaming 45",
+    "description": "適合極簡偏好，主打輕量與日常使用。",
+    "tags": [
+      "gaming",
+      "輕量",
+      "比較",
+      "替代"
+    ],
+    "category": "gaming",
+    "price": 349,
+    "image": "https://picsum.photos/seed/v2a-45/600/400",
+    "styleKeywords": [
+      "極簡",
+      "賽博龐克"
+    ],
+    "comparisonKeywords": [
+      "輕量",
+      "質感"
+    ],
+    "substituteFor": [
+      "Herman Miller",
+      "Sony"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-45"
+  },
+  {
+    "id": "mock-46",
+    "title": "Vertex 賽博龐克fragrance 46",
+    "description": "適合賽博龐克偏好，主打通勤與日常使用。",
+    "tags": [
+      "fragrance",
+      "通勤",
+      "比較",
+      "替代"
+    ],
+    "category": "fragrance",
+    "price": 356,
+    "image": "https://picsum.photos/seed/v2a-46/600/400",
+    "styleKeywords": [
+      "賽博龐克",
+      "宅宅感"
+    ],
+    "comparisonKeywords": [
+      "通勤",
+      "平替"
+    ],
+    "substituteFor": [
+      "Le Labo",
+      "Dyson"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-46"
+  },
+  {
+    "id": "mock-47",
+    "title": "Echo 宅宅感skincare 47",
+    "description": "適合宅宅感偏好，主打質感與日常使用。",
+    "tags": [
+      "skincare",
+      "質感",
+      "比較",
+      "替代"
+    ],
+    "category": "skincare",
+    "price": 363,
+    "image": "https://picsum.photos/seed/v2a-47/600/400",
+    "styleKeywords": [
+      "宅宅感",
+      "韓系"
+    ],
+    "comparisonKeywords": [
+      "質感",
+      "CP值"
+    ],
+    "substituteFor": [
+      "Sony",
+      "AirPods"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-47"
+  },
+  {
+    "id": "mock-48",
+    "title": "Bloom 韓系furniture 48",
+    "description": "適合韓系偏好，主打平替與日常使用。",
+    "tags": [
+      "furniture",
+      "平替",
+      "比較",
+      "替代"
+    ],
+    "category": "furniture",
+    "price": 370,
+    "image": "https://picsum.photos/seed/v2a-48/600/400",
+    "styleKeywords": [
+      "韓系",
+      "北歐風"
+    ],
+    "comparisonKeywords": [
+      "平替",
+      "耐用"
+    ],
+    "substituteFor": [
+      "Dyson",
+      "SK-II"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-48"
+  },
+  {
+    "id": "mock-49",
+    "title": "Craft 北歐風accessories 49",
+    "description": "適合北歐風偏好，主打CP值與日常使用。",
+    "tags": [
+      "accessories",
+      "CP值",
+      "比較",
+      "替代"
+    ],
+    "category": "accessories",
+    "price": 378,
+    "image": "https://picsum.photos/seed/v2a-49/600/400",
+    "styleKeywords": [
+      "北歐風",
+      "工業風"
+    ],
+    "comparisonKeywords": [
+      "CP值",
+      "輕量"
+    ],
+    "substituteFor": [
+      "AirPods",
+      "Herman Miller"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-49"
+  },
+  {
+    "id": "mock-50",
+    "title": "Lumi 工業風beauty 50",
+    "description": "適合工業風偏好，主打耐用與日常使用。",
+    "tags": [
+      "beauty",
+      "耐用",
+      "比較",
+      "替代"
+    ],
+    "category": "beauty",
+    "price": 385,
+    "image": "https://picsum.photos/seed/v2a-50/600/400",
+    "styleKeywords": [
+      "工業風",
+      "極簡"
+    ],
+    "comparisonKeywords": [
+      "耐用",
+      "通勤"
+    ],
+    "substituteFor": [
+      "SK-II",
+      "Le Labo"
+    ],
+    "source": "Local Mock Pool",
+    "link": "https://example.com/mock-50"
+  }
+]
