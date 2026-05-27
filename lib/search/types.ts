@@ -5,7 +5,7 @@ export type ParserSource = "openai" | "fallback";
 export type SearchSource = "serpapi" | "local_fallback" | "none";
 
 export type NarrowingOption = {
-  id: "A" | "B" | "C";
+  id: "A" | "B" | "C" | "D";
   label: string;
   description: string;
   searchQuery: string;
@@ -16,7 +16,7 @@ export interface ParsedIntent { intentMode: IntentMode; features: string[]; keyw
 export interface Candidate { id: string; image: string; title: string; source: string; link: string; snippet?: string; description?: string; category?: string; tags?: string[]; styleKeywords?: string[]; comparisonKeywords?: string[]; substituteFor?: string[]; price?: number; score?: number; }
 export interface SelectedCandidatePayload { title: string; source: string; link: string; }
 export interface ComparisonRow { candidateId: string; title: string; price: string; style: string; bestFor: string; substituteLevel: "高" | "中" | "低"; cpValue: "高" | "中" | "低"; reason: string; }
-export interface SearchDebug { searchProvider: "serpapi" | "local_fallback"; serpApiCalls: number; selectedOptionId?: "A" | "B" | "C"; generatedSearchQueries: string[]; parserSource: ParserSource; intentMode: IntentMode; errorMessage?: string; }
+export interface SearchDebug { searchProvider: "serpapi" | "local_fallback"; serpApiCalls: number; selectedOptionId?: "A" | "B" | "C" | "D"; generatedSearchQueries: string[]; parserSource: ParserSource; intentMode: IntentMode; errorMessage?: string; }
 
 export interface SearchRequest {
   mode?: "narrowing" | "search";
