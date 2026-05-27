@@ -55,6 +55,9 @@ export async function POST(request: Request) {
     if (selected.id === "D") {
       return NextResponse.json({ mode: "narrowing", parsedIntent: parseResult.parsedIntent, options, debug: { searchProvider: "local_fallback", serpApiCalls: 0, selectedOptionId: "D", generatedSearchQueries: options.filter((o) => o.id !== "D").map((o) => o.searchQuery), parserSource: parseResult.parserSource, intentMode: parseResult.parsedIntent.intentMode, errorMessage: "user requested re-narrowing" } } satisfies SearchApiResponse);
     }
+    const queries = [selected.searchQuery, ...generatedQueries].slice(0, 2);
+    const preSerpSafety = checkGeneratedQueriesSafety(queries);
+    if (preSerpSafety.blocked) return NextResponse.json(buildBlockedResponse(body.intentMode, "pre-serpapi", preSerpSafety.matchedTerm));
 
     const queries = [selected.searchQuery, ...generatedQueries].slice(0, 2);
     const preSerpSafety = checkGeneratedQueriesSafety(queries);
