@@ -75,7 +75,7 @@ export default function Home() {
 
   return (
     <main className="mx-auto max-w-5xl p-6 space-y-6">
-      <h1 className="text-2xl font-semibold">Conversational Semantic Search MVP</h1>
+      <h1 className="text-2xl font-semibold">AI Shopping Comparison Agent V2A</h1>
       <section className="bg-white rounded-lg border p-4 space-y-3">
         <div className="flex gap-2 flex-wrap">
           {INTENT_MODES.map((mode) => (
@@ -87,7 +87,7 @@ export default function Home() {
         <textarea className="w-full border rounded p-2" placeholder="你想找什麼？" value={wanted} onChange={(e) => setWanted(e.target.value)} />
         <textarea className="w-full border rounded p-2" placeholder="你不想要什麼？例如 家樂福, carrefour" value={unwanted} onChange={(e) => setUnwanted(e.target.value)} />
         <button type="button" className="px-4 py-2 bg-slate-900 text-white rounded" onClick={runSearch} disabled={loading || !wanted.trim()}>
-          {loading ? "搜尋中..." : "開始搜尋"}
+          {loading ? "搜尋中..." : "開始比較"}
         </button>
       </section>
 
@@ -128,6 +128,30 @@ export default function Home() {
             ) : null}
           </article>
           )}
+
+
+          {!result.blocked && result.comparisonTable?.length ? (
+            <article className="bg-white border rounded-lg p-4 space-y-3">
+              <h3 className="font-semibold">比較表（Comparison First）</h3>
+              <p className="text-sm text-slate-600">{result.comparisonSummary}</p>
+              <div className="overflow-auto">
+                <table className="w-full text-xs border">
+                  <thead className="bg-slate-100">
+                    <tr>
+                      <th className="p-2 border">商品</th><th className="p-2 border">價格</th><th className="p-2 border">風格</th><th className="p-2 border">適合對象</th><th className="p-2 border">平替程度</th><th className="p-2 border">CP 值</th><th className="p-2 border">推薦理由</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {result.comparisonTable.map((row) => (
+                      <tr key={row.candidateId}>
+                        <td className="p-2 border">{row.title}</td><td className="p-2 border">{row.price}</td><td className="p-2 border">{row.style}</td><td className="p-2 border">{row.bestFor}</td><td className="p-2 border">{row.substituteLevel}</td><td className="p-2 border">{row.cpValue}</td><td className="p-2 border">{row.reason}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </article>
+          ) : null}
 
           {result.blocked || result.candidates.length === 0 ? null : (
             <div className="grid md:grid-cols-3 gap-4">

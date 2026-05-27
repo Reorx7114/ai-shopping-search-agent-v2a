@@ -2,7 +2,7 @@ export const INTENT_MODES = ["找商品", "找旅遊", "找靈感", "我不確�
 
 export type IntentMode = (typeof INTENT_MODES)[number];
 export type ParserSource = "openai" | "fallback";
-export type SearchSource = "serpapi" | "mock" | "none";
+export type SearchSource = "local_pool" | "none";
 
 export interface ParsedIntent {
   intentMode: IntentMode;
@@ -21,6 +21,14 @@ export interface Candidate {
   source: string;
   link: string;
   snippet?: string;
+  description?: string;
+  category?: string;
+  tags?: string[];
+  styleKeywords?: string[];
+  comparisonKeywords?: string[];
+  substituteFor?: string[];
+  price?: number;
+  score?: number;
 }
 
 export interface SelectedCandidatePayload {
@@ -37,15 +45,24 @@ export interface SearchRequest {
   negativeInput?: string;
   selectedCandidate?: SelectedCandidatePayload;
   refinementType?: "similar";
-  likedCandidateId?: string;
-  restartRefinement?: boolean;
-  mockMode?: boolean;
+}
+
+export interface ComparisonRow {
+  candidateId: string;
+  title: string;
+  price: string;
+  style: string;
+  bestFor: string;
+  substituteLevel: "高" | "中" | "低";
+  cpValue: "高" | "中" | "低";
+  reason: string;
 }
 
 export interface SearchDebug {
   apiKeyStatus: {
     openaiConfigured: boolean;
     serpApiConfigured: boolean;
+    useSerp: boolean;
   };
   parserSource: ParserSource;
   searchSource: SearchSource;
@@ -53,7 +70,6 @@ export interface SearchDebug {
   generatedQueries: string[];
   errorMessage?: string;
 }
-
 
 export interface BlockedSearchResponse {
   blocked: true;
@@ -71,6 +87,8 @@ export interface SearchResponse {
   blocked?: false;
   parsedIntent: ParsedIntent | null;
   candidates: Candidate[];
+  comparisonTable: ComparisonRow[];
+  comparisonSummary: string;
   debug: SearchDebug;
 }
 
